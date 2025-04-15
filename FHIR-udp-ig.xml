@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/yyyyMmm/udp-ig.html" ciUrl="http://hl7.org/fhir/ig/HL7/udp-ig" defaultVersion="0.1.0" defaultWorkgroup="" url="http://somewhere.org/fhir/uv/udp-ig">
+<version code="current" url="http://hl7.org/fhir/ig/HL7/udp-ig"/>
+<version code="0.1.0" url="http://hl7.org/fhir/yyyyMmm/udp-ig.html"/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="Questionnaire/example" key="Questionnaire-example" name="Cancer Quality Forum Questionnaire 2012"/>
+<artifact id="CodeSystem/cs-fake" key="CodeSystem-cs-fake" name="CodeSystem fake"/>
+<artifact id="Library/example" key="Library-example" name="Example CQL Library"/>
+<artifact id="Library/example-sql" key="Library-example-sql" name="Example Library"/>
+<artifact id="Library/example-image" key="Library-example-image" name="Example Library Image"/>
+<artifact id="ActorDefinition/example" key="ActorDefinition-example" name="Example Server"/>
+<artifact id="Binary/example" key="Binary-example" name="Example binary"/>
+<artifact id="Binary/image-example" key="Binary-image-example" name="Example of Binary Image"/>
+<artifact id="Binary/logical-example" key="Binary-logical-example" name="Example of Logical Model"/>
+<artifact id="StructureDefinition/mypatient" key="StructureDefinition-mypatient" name="My Favorite Patient Profile"/>
+<artifact id="StructureDefinition/MyLogical" key="StructureDefinition-MyLogical" name="My Logical Model"/>
+<artifact id="StructureDefinition/myObservation" key="StructureDefinition-myObservation" name="My Observation Profile"/>
+<artifact id="StructureDefinition/ext-myExtension" key="StructureDefinition-ext-myExtension" name="My awesome extension"/>
+<artifact id="StructureDefinition/mypractitioner" key="StructureDefinition-mypractitioner" name="MyPractitionerName"/>
+<artifact id="Observation/example" key="Observation-example" name="Observation patient example"/>
+<artifact id="Patient/example" key="Patient-example" name="Simple patient example"/>
+<artifact id="ValueSet/valueset-no-codesystem" key="ValueSet-valueset-no-codesystem" name="Value set for no code system"/>
+<artifact id="ValueSet/valueset-fake" key="ValueSet-valueset-fake" name="ValueSet fake"/>
+<artifact id="Bundle/h1" key="Bundle-h1" name="null (Bundle)"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="bestPractice" name="Best Practice"/>
+<page key="conformance" name="Conformance"/>
+<page key="credits" name="Credits"/>
+<page key="guidance" name="Guidance"/>
+<page key="changes" name="IG Change History"/>
+<page key="infoModels" name="Information Models"/>
+<page key="links" name="Links"/>
+<page key="maintenance" name="Maintenance"/>
+<page key="mappings" name="Mappings"/>
+<page key="support" name="Support"/>
+<page key="toc" name="Table of Contents"/>
+<page key="index" name="UDP IG Home Page"/>
+<page key="useCases" name="Use Cases and Workflows"/>
+<page key="downloads" name="Useful Downloads"/>
+</specification>
