@@ -1,11 +1,19 @@
 `input/pagecontent/mappings.md`
 
-# 1    Mappings
+### 1    Mappings
 
-M11 to USDM or is it USDM to M11?
+#### USDM Terminology
 
-![image-20250415143104846](C:\Filing\UDP\IG_HL7\input\images\cdisc mappings.png)
+<div><img src="cdisc mappings.png" alt="cdisc mappings.png" style="max-width: 80%;height: auto;"/></div>
 
-M11 to FHIR
+blah blah blah
 
-![image-20250415143208531](C:\Filing\UDP\IG_HL7\input\images\Mapping.png)
+blah blah blah
+
+#### M11 to FHIR
+
+<div><img src="Mapping.png" alt="Mapping.png" style="max-width: 80%;height: auto;" /></div>
+
+blah blah blah
+
+blah blah blah

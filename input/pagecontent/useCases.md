@@ -10,7 +10,5 @@ Text text text
 
 ## 1.3   Protocol Use during study execution
 
-<img src="useCases.png" style="height:200px" />
-
-<img src="useCases.png" alt="image-20250415141733086" style="height:200px" />
+<img src="useCases.png" alt="useCases.png" style="height:200px" />
 

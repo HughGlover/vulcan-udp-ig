@@ -8,9 +8,9 @@ This section provides more detailed background and guidance on the use that can 
 
 Having the protocol for a clinical study in digital format is an enabling step for a wide range of transformations to processes for authoring, approving, executing and reporting studies. Some examples are shown in Figure 1: Potential developments enabled by a Digital Protocol.
 
-![image-20250415140641414](C:\Filing\UDP\IG_HL7\input\images\image-20250415140641414.png)
-
-Figure 1: Potential developments enabled by a Digital Protocol
+<div><img src="image-20250415140641414.png" alt="image-20250415140641414.png" style="max-width: 80%;
+ height: auto;" />
+<p>Figure 1: Potential developments enabled by a Digital Protocol</p></div>
 
 This Implementation Guide gives general guidance on the creation in FHIR format of a digital representation of a protocol for a clinical study. It shows how the placement of data items within the FHIR format is derived from the USDM data model and also shows how the sections of the M11 CeSHarP specification are represented within the FHIR structures.
 
