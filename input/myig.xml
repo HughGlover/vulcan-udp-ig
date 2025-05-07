@@ -6,7 +6,7 @@
     <valueCode value="informative"/> 
   </extension> 
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-    <valueInteger value="1"/> 
+    <valueInteger value="3"/> 
   </extension>
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
@@ -53,36 +53,36 @@
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-    <resource>
+<!--     <resource>
       <reference>
         <reference value="StructureDefinition/mypatient"/>
       </reference>
       <description value="Overriding description because we can"/>
-    </resource>
-    <resource>
+    </resource> -->
+<!--     <resource>
       <reference>
         <reference value="StructureDefinition/MyLogical"/>
       </reference>
       <description value="Logical Model"/>
-    </resource>
-    <resource>
+    </resource> -->
+<!--     <resource>
       <reference>
         <reference value="Library/example-sql"/>
       </reference>
       <description value="A test example"/>
-    </resource>
-    <resource>
+    </resource> -->
+<!--     <resource>
       <reference>
         <reference value="Library/example-image"/>
       </reference>
       <description value="A test image example"/>
-    </resource>
+    </resource> -->
 <!--<resource>
 <reference>
 <reference value="MyLogicalModel/AS"/>
 </reference>
 </resource> -->
-    <resource>
+<!--     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor">
         <valueCanonical value="http://somewhere.org/fhir/uv/udp-ig/ActorDefinition/example"/>
       </extension>
@@ -92,15 +92,15 @@
       <name value="Simple patient example"/>
       <description value="A simple example showing how examples are defined and referenced"/>
       <exampleCanonical value="http://somewhere.org/fhir/uv/udp-ig/StructureDefinition/mypatient"/>
-    </resource>
-    <resource>
+    </resource> -->
+<!--     <resource>
       <reference>
         <reference value="Observation/example"/>
       </reference>
       <name value="Observation patient example"/>
       <description value="Example showing slicing"/>
       <exampleCanonical value="http://somewhere.org/fhir/uv/udp-ig/StructureDefinition/myObservation"/>
-    </resource>
+    </resource> -->
     <resource>
       <reference>
         <reference value="Binary/example"/>
@@ -108,7 +108,7 @@
       <name value="Example binary"/>
       <description value="Example showing binary content"/>
     </resource>
-    <resource>
+<!--     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
         <valueCode value="application/xml"/>
       </extension>
@@ -118,7 +118,7 @@
       <name value="Example of Logical Model"/>
       <description value="Example showing example content for a logical model"/>
       <exampleCanonical value="http://somewhere.org/fhir/uv/udp-ig/StructureDefinition/MyLogical"/>
-    </resource>    
+    </resource> -->    
     <resource>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format">
         <valueCode value="image/jpeg"/>
